@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# dbt
+dbt.log
+target/
+logs/
+.dbt/
+
+# VS Code
+.vscode/
+
+# Docker
+*.template
+
+# OS
+.DS_Store
+
+# Secrets
+profiles.yml
+
+# Postgres Docker volume
+postgres/
+postgres/data/
