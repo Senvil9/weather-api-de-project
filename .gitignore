@@ -26,6 +26,11 @@ logs/
 # Secrets
 profiles.yml
 
+# dbt user / local config
+.user.yml
+profiles.yml
+
+
 # Postgres Docker volume
 postgres/
 postgres/data/
